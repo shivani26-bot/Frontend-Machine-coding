@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1001,
+    "image": "user.png",
+    "firstName": "Peter",
+    "lastName": "Leannon",
+    "email": "peter@dummyapis.com",
+    "contactNumber": "9459232343",
+    "age": 40,
+    "dateOfBirth": "20/08/1983",
+    "salary": 1,
+    "address": "Address1"
+  },
+  {
+    "id": 1002,
+    "image": "user.png",
+    "firstName": "Sarah",
+    "lastName": "Connor",
+    "email": "sarah@dummyapis.com",
+    "contactNumber": "9459232344",
+    "age": 35,
+    "dateOfBirth": "15/05/1989",
+    "salary": 2,
+    "address": "Address2"
+  },
+  {
+    "id": 1003,
+    "image": "user.png",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@dummyapis.com",
+    "contactNumber": "9459232345",
+    "age": 30,
+    "dateOfBirth": "10/10/1993",
+    "salary": 3,
+    "address": "Address3"
+  },
+  {
+    "id": 1004,
+    "image": "user.png",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane@dummyapis.com",
+    "contactNumber": "9459232346",
+    "age": 28,
+    "dateOfBirth": "25/12/1995",
+    "salary": 4,
+    "address": "Address4"
+  },
+  {
+    "id": 1005,
+    "image": "user.png",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael@dummyapis.com",
+    "contactNumber": "9459232347",
+    "age": 46,
+    "dateOfBirth": "05/03/1978",
+    "salary": 5,
+    "address": "Address5"
+  },
+  {
+    "id": 1006,
+    "image": "user.png",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily@dummyapis.com",
+    "contactNumber": "9459232348",
+    "age": 33,
+    "dateOfBirth": "08/08/1990",
+    "salary": 6,
+    "address": "Address6"
+  },
+  {
+    "id": 1007,
+    "image": "user.png",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david@dummyapis.com",
+    "contactNumber": "9459232349",
+    "age": 38,
+    "dateOfBirth": "20/11/1985",
+    "salary": 7,
+    "address": "Address7"
+  },
+  {
+    "id": 1008,
+    "image": "user.png",
+    "firstName": "Olivia",
+    "lastName": "Johnson",
+    "email": "olivia@dummyapis.com",
+    "contactNumber": "9459232350",
+    "age": 27,
+    "dateOfBirth": "14/02/1997",
+    "salary": 8,
+    "address": "Address8"
+  },
+  {
+    "id": 1009,
+    "image": "user.png",
+    "firstName": "Chris",
+    "lastName": "Lee",
+    "email": "chris@dummyapis.com",
+    "contactNumber": "9459232351",
+    "age": 37,
+    "dateOfBirth": "30/06/1986",
+    "salary": 9,
+    "address": "Address9"
+  },
+  {
+    "id": 1010,
+    "image": "user.png",
+    "firstName": "Sophia",
+    "lastName": "Martinez",
+    "email": "sophia@dummyapis.com",
+    "contactNumber": "9459232352",
+    "age": 29,
+    "dateOfBirth": "10/09/1994",
+    "salary": 10,
+    "address": "Address10"
+  }
+]

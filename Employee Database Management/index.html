@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <p>Employee DataBase Management</p>
+      <button class="addEmpBtn">Add Employee</button>
+    </div>
+
+    <div class="main">
+      <div class="section-1">
+        <h3>Employee List</h3>
+        <div class="employee_names--list">
+          <!-- <ul>
+            <li>
+              shivani kumari
+              <img
+                src="letter-x.png"
+                alt=""
+                style="width: 20px; height: 20px; border-radius: 50%"
+              />
+            </li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li>
+            <li>A</li> -->
+          <!-- </ul> -->
+        </div>
+      </div>
+
+      <div class="section-2">
+        <h3>Employee Information</h3>
+        <div class="employees_names--info"></div>
+        <!-- <img
+          src="user.png"
+          alt=""
+          style="
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            cursor: pointer;
+          "
+        />
+        <p style="font-size: 25px">Thomas Leanon&nbsp;(43)</p>
+        <p>address1</p>
+        <p>abcthomasleanon@dummyapis.com</p>
+        <p>mobile: 98733222222</p>
+        <p>DOB-30/08/1989</p> -->
+      </div>
+    </div>
+    <div class="emp-modal">
+      <form class="add-employ">
+        <h3 style="text-align: center">Add a new Employee</h3>
+        <div>
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            required
+          />
+          <input type="text" name="lastName" placeholder="Last Name" required />
+          <input
+            type="text"
+            name="imageUrl"
+            placeholder="Image URL (Optional)"
+          />
+          <input type="text" name="email" placeholder="Email" required />
+          <input
+            type="number"
+            name="contactNumber"
+            placeholder="Contact"
+            required
+          />
+          <input type="number" name="salary" placeholder="Salary" required />
+          <input type="text" name="address" placeholder="Address" required />
+          <input
+            type="date"
+            name="dateOfBirth"
+            class="add-employ--dob"
+            required
+          />
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
