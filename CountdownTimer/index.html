@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="container__title">Countdown Timer</span>
+      <div class="container__labels">
+        <span class="label">Hours</span>
+        <span class="label">Minutes</span>
+        <span class="label">Seconds</span>
+      </div>
+      <div class="container__inputs">
+        <!-- maxLength doesn't work directly with number, it works with text  -->
+        <input
+          type="text"
+          maxlength="2"
+          onInput="this.value=this.value.slice(0,this.maxLength)"
+          placeholder="00"
+          class="hour"
+        />
+        <span>:</span>
+        <input
+          type="number"
+          maxlength="2"
+          placeholder="00"
+          onInput="this.value=this.value.slice(0,this.maxLength)"
+          class="minute"
+        />
+        <span>:</span>
+        <input
+          type="number"
+          maxlength="2"
+          placeholder="00"
+          onInput="this.value=this.value.slice(0,this.maxLength)"
+          class="second"
+        />
+      </div>
+      <div class="container__btns">
+        <!-- button.btn*3 -->
+        <button class="btn start">Start</button>
+        <button class="btn pause">Pause</button>
+        <button class="btn reset">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- onInput: This event handler is triggered every time the value of the input element changes (i.e., when the user types, pastes, or deletes characters).
+this.value: Refers to the current value of the input element.
+this.maxLength: Refers to the maxLength attribute of the input element, which specifies the maximum number of characters allowed in the input. -->
+
+<!-- The onInput and onChange event handlers are both used to respond to changes in
+an input field.
+
+The onInput and onChange event handlers are both used to respond
+to changes in an input field, but they are triggered at different times and
+serve slightly different purposes. Here are the key differences: onInput When it
+triggers: 
+
+The onInput event fires immediately when the value of an input element
+changes. This can happen with every keystroke, paste, or delete action.
+
+onChange
+When it triggers: The onChange event fires when the input element loses focus after its value has changed. In other words, it triggers after the user has finished their input and moved away from the input field (e.g., by clicking outside the field or pressing the Tab key). -->

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px auto;
+}
+
+.container__title {
+  font-size: 40px;
+}
+.container__labels {
+  padding: 10px;
+  font-size: 30px;
+
+  margin: 20px auto;
+}
+
+.label {
+  margin: 0px 25px;
+}
+
+.container__inputs {
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.container__inputs > input {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin: 0px 35px;
+}
+
+.container__btns {
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  width: 140px;
+  cursor: pointer;
+  color: white;
+}
+.start {
+  background-color: green;
+}
+
+.reset {
+  background-color: red;
+}
+.pause {
+  display: none;
+  background-color: rgb(218, 148, 18);
+}
+/* For Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
