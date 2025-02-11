@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  font-size: 20px;
+  width: 500px;
+  height: 160px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.3fr 1fr;
+}
+.bitcoin-img {
+  width: 50px;
+  height: 50px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.percent {
+  color: red;
+}
+/* box-shadow: offsetX offsetY blurRadius spreadRadius color;
+offsetX: Horizontal shadow position (positive → right, negative → left).
+offsetY: Vertical shadow position (positive → down, negative → up).
+blurRadius (optional): The blur effect (higher value → more blur).
+spreadRadius (optional): Expands or shrinks the shadow.
+color: Defines the shadow color (can use rgba for transparency). */
