@@ -1,0 +1,21 @@
+.heading {
+  font-size: 30px;
+}
+.container {
+  text-align: center;
+  font-weight: bold;
+}
+.footer {
+  font-size: 20px;
+}
+.star-icon {
+  font-size: 40px;
+  margin: 0 15px;
+  color: gray;
+}
+.star {
+  margin-bottom: 25px;
+}
+.star-filled{
+    color: yellow;
+}
