@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+}
+.table {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+  border: 1px solid grey;
+  border-style: inset;
+}
+
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+.blue {
+  background-color: blue;
+}
