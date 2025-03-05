@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 8px;
+}
+
+.increment {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+}
+.decrement {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+}
+.reset {
+  width: 90px;
+  height: 40px;
+  background-color: yellow;
+  font-weight: bold;
+  outline: none;
+
+  border-radius: 4px;
+  font-size: 25px;
+}
+.count {
+  font-size: 30px;
+  margin: 5px;
+}
