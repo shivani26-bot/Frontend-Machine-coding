@@ -1,0 +1,71 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+/* to make responsive  */
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img {
+  width: 250px;
+  height: 170px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.card {
+  width: 250px;
+  height: auto;
+  min-height: 350px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.product-details {
+  padding: 10px;
+  height: 120px;
+}
+.product-name {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.product-category {
+  display: block;
+  margin-top: 5px;
+}
+
+.all-star {
+  margin-top: 5px;
+  font-size: 20px;
+}
+.rating-count {
+  margin-top: 5px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.buy-btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.star-filled {
+  color: yellow;
+}
