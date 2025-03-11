@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Captioning Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Video Captioning Tool</h1>
+      <!-- Video URL input -->
+      <label for="videoUrl">Enter Video URL:</label>
+      <input type="text" id="videoUrl" placeholder="Enter video URL" />
+      <button id="loadVideo">Load Video</button>
+
+      <div id="videoContainer" class="video-container">
+        <!-- Video Player -->
+        <video id="video" width="640" controls>
+          <source id="videoSource" src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div id="captionForm" class="caption-form">
+        <h3>Add Captions</h3>
+        <label for="captionText">Caption Text:</label>
+        <textarea
+          id="captionText"
+          rows="3"
+          placeholder="Enter caption here..."
+        ></textarea>
+
+        <label for="timestamp">Timestamp (in seconds):</label>
+        <input
+          type="number"
+          id="timestamp"
+          placeholder="Enter timestamp"
+          min="0"
+        />
+
+        <button id="addCaption">Add Caption</button>
+      </div>
+
+      <div id="captionsDisplay" class="captions-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
